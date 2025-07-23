@@ -1,0 +1,39 @@
+.contact-page {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.contact-section {
+	margin-top: 2rem;
+}
+
+.feedback-form {
+	margin-top: 3rem;
+}
+
+.feedback-form form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+	width: 100%;
+	max-width: 400px;
+	margin-bottom: 1rem;
+	padding: 0.75rem;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+.feedback-form button.btn {
+	background-color: var(--primary-blue);
+	color: white;
+	padding: 0.75rem 1.5rem;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+}

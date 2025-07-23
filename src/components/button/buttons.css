@@ -1,0 +1,51 @@
+/* ====== BASE BUTTON STYLE ====== */
+.btn {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* ====== INTERACTION ANIMATION ====== */
+.btn:focus,
+.btn:hover {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* ====== Teal (Primary) ====== */
+.btn-teal {
+  background-color: #2a6e68;
+  color: white;
+}
+.btn-teal:hover {
+  background-color: #245d59;
+}
+
+/* ====== White (Secondary) ====== */
+.btn-white {
+  background-color: white;
+  color: #2a6e68;
+  border: 2px solid #2a6e68;
+  
+}
+.btn-white:hover {
+  background-color: #f2f2f2;
+}
+
+/* ====== Navy ====== */
+.btn-navy {
+  background-color: #2a3f5e;
+  color: white;
+}
+.btn-navy:hover {
+  background-color: #1f3147;
+}
