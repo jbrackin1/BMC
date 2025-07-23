@@ -55,9 +55,6 @@ function Navbar() {
         {isLoggedIn && (
           <>
             <li>
-              <Link to="/intake-form">SERVICES</Link>
-            </li>
-            <li>
               <Link to="/resources">RESOURCES</Link>
             </li>
           </>
