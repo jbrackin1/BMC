@@ -54,11 +54,6 @@ function About() {
 				every Patient Report we create is more than data—it’s a step toward
 				peace of mind, dignity, and clarity.
 			</p>
-			<div className="mt-4">
-				<a href="/intake-form" className="btn">
-					Start Your Intake
-				</a>
-			</div>
 		</div>
 	);
 }
