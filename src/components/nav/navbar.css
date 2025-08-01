@@ -1,0 +1,70 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: #0d1b2a;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #dce0e6;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #0d1b2a;
+  text-transform: lowercase;
+}
+
+.navbar-right {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right li a {
+  color: #0d1b2a;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-right li a:hover {
+  color: #4fc3f7;
+}
+
+/* Normalize login/logout styling */
+.navbar-right li button.logout-button,
+.navbar-right li a.login-link {
+  all: unset;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #0d1b2a;
+  min-width: 60px; /* Reserve space to prevent layout shift */
+  display: inline-block;
+  text-align: left;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-right li button.logout-button:hover,
+.navbar-right li a.login-link:hover {
+  color: #4fc3f7;
+}
